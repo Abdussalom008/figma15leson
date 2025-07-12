@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-[#111827]">
+    <header class="sticky z-10 bg-[#111827] shadow-lg top-0 pt-[39px]">
+      <div class="container">
+        <div class="navbar flex justify-between">
+          <a href="">
+            <img src="./images/header.images/Logo.svg" alt="Brand-logo" />
+          </a>
+          <nav class="max-w-[442px] w-full">
+            <ul class="flex justify-between w-full text-white">
+              <li><a href="">Featured</a></li>
+              <li><a href="">Tutorial</a></li>
+              <li><a href="">Freelance</a></li>
+              <li><a href="">Design</a></li>
+              <li><a href="">FreeBies</a></li>
+            </ul>
+          </nav>
+          <div class="auth-actions flex gap-2">
+            <button
+              class="bg-[#2563EB] p-[12px_24px] text-white rounded-md cursor-pointer hover:opacity-50"
+            >
+              Login
+            </button>
+            <button
+              class="bg-[#1F2937] p-[12px_24px] text-white rounded-md cursor-pointer hover:opacity-50"
+            >
+              Sing Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <img class="absolute top-[-20px] left-10" src="./images/main.images/Group 24.svg" alt="">
+      <section class="main-hero">
+        <div class="container flex relative">
+          <div class="content mt-50">
+            <h1 class="w-[462px] h-[168px] text-6xl leading-20 font-bold bg-gradient-to-bl from-violet-500 to-fuchsia-500 bg-clip-text text-transparent">Inspiration is everywhere</h1>
+            <p class="max-w-[430px] text-white mt-7">
+              There is no passion to be found playing small in settling for a
+              life that is less than the one you are capable of living
+            </p>
+            <button
+              class="bg-linear-to-bl from-violet-500 to-fuchsia-500 text-white p-[20px_40px] rounded-md cursor-pointer mt-7 hover:opacity-70"
+            >
+              Get Started
+            </button>
+          </div>
+          <img class="absolute right-115 top-40" src="./images/main.images/SalyBook.svg" alt="">
+          <img class="absolute right-[-75px] top-20" src="./images/main.images/SalyMan.svg" alt="">
+        </div>
+      </section>
+
+      <section class="mt-90 relative overflow-hidden">
+        <div class="container">
+            <div class="flex justify-between items-center">
+                <h1 class="text-white text-4xl">Galleries</h1>
+                <a class="text-[#0078FF]" href="">view all</a>
+            </div>
+            <div class="flex mt-[64px] gap-x-[31px]">
+                <img class="" src="./images/main.images/section2.image/instagram.svg" alt="">
+                <img class="" src="./images/main.images/section2.image/tesla.svg" alt="">
+                <img class="" src="./images/main.images/section2.image/sms.svg" alt="">
+            </div>
+            <img class="w-[342px] h-[442px] absolute right-[-55px] top-26" src="./images/main.images/section2.image/tiktok.svg" alt="">
+        </div>
+      </section>
+
+      <section class="mt-[90px]">
+        <div class="container">
+          <div class="flex justify-between items-center mb-8">
+            <h1 class="text-white text-4xl">Latest Articles</h1>
+            <a class="right-0 text-[#0078FF]" href="">view all</a>
+          </div>
+      
+          <div class="cards grid gap-y-[32px]">
+            
+            <div class="flex gap-[32px]">
+              <div class="w-[712px] h-[402px] bg-[#99F6E4] rounded-[30px]"></div>
+              <div class="w-[456px] h-[402px] bg-[#FED7AA] rounded-[30px]"></div>
+            </div>
+      
+            <div class="flex gap-[32px]">
+              <div class="w-[456px] h-[402px] bg-[#FEF08A] rounded-[30px]"></div>
+              <div class="w-[712px] h-[402px] bg-[#D8B4FE] rounded-[30px]"></div>
+            </div>
+
+            <div class="w-full h-[402px] bg-[#DDB1E8] rounded-[30px]">
+            </div>
+      
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
