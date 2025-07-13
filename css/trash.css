@@ -1,0 +1,147 @@
+/* Inspiration is everywhere */
+
+position: absolute;
+width: 462px;
+height: 168px;
+left: 117px;
+top: 280px;
+
+font-family: 'Fira Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 84px;
+/* or 120% */
+letter-spacing: 0.02em;
+
+background: linear-gradient(93.54deg, #3B82F6 9.03%, #D946EF 43.88%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px 40px;
+gap: 10px;
+
+position: absolute;
+width: 168px;
+height: 59px;
+left: 120px;
+top: 564px;
+
+background: linear-gradient(86.95deg, #3B82F6 2.58%, #D946EF 105.04%),
+#F9FAFB;
+border-radius: 6px;
+
+
+/* Ellipse 24 */
+
+position: absolute;
+left: -6.04%;
+right: 90.83%;
+top: 9.18%;
+bottom: 84.28%;
+
+background: #1D4ED8;
+filter: blur(100px);
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 712px;
+height: 402px;
+left: 120px;
+top: 1711px;
+
+background: linear-gradient(109.56deg, #CCFBF1 8.75%, #BBDCE9 101.85%, #99F6E4 101.85%);
+border-radius: 28px;
+
+
+
+
+/* Rectangle 21 */
+
+position: absolute;
+width: 456px;
+height: 402px;
+left: 864px;
+top: 1711px;
+
+background: linear-gradient(128.14deg, #FFEDD5 2.71%, #FED7AA 97.55%);
+border-radius: 28px;
+
+
+/* Rectangle 25 */
+
+position: absolute;
+width: 700px;
+height: 402px;
+left: 614px;
+top: 2145px;
+
+background: linear-gradient(109.56deg, #F3E8FF 8.75%, #D8B4FE 101.85%);
+border-radius: 28px;
+
+
+/* Rectangle 30 */
+
+position: absolute;
+width: 1200px;
+height: 402px;
+left: 120px;
+top: 2579px;
+
+background: linear-gradient(180deg, #DDD6FE 0%, #A78BFA 100%);
+border-radius: 28px;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px 36px;
+gap: 10px;
+
+position: absolute;
+width: 172px;
+height: 57px;
+left: 181px;
+top: 2809px;
+
+background: linear-gradient(93.54deg, #AF51C5 5.09%, #6E297E 91.93%);
+border-radius: 5px;
+
+
+/* Lunchpiration */
+
+position: absolute;
+width: 169px;
+height: 33px;
+left: 1005px;
+top: 3148px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height */
+
+background: linear-gradient(91.55deg, #2F79CB 38.53%, #AF51C5 92.65%),
+#F9FAFB;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;

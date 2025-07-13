@@ -1,7 +1,79 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-left: 12px;
-    padding-right: 12px;
+body {
+  height: 100vh;
+  background-color: #111827;
 }
 
+header {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #111827;
+}
+
+.mycon {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: auto;
+}
+
+.ins {
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84px;
+  /* or 120% */
+  letter-spacing: 0.02em;
+
+  background: linear-gradient(93.54deg, #3B82F6 9.03%, #D946EF 43.88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+}
+
+.get-btn {
+  background: linear-gradient(86.95deg, #3B82F6 2.58%, #D946EF 105.04%);
+}
+
+.card-1 {
+  background: linear-gradient(109.56deg, #CCFBF1 8.75%, #BBDCE9 101.85%, #99F6E4 101.85%);
+}
+
+.card-2 {
+  background: linear-gradient(128.14deg, #FFEDD5 2.71%, #FED7AA 97.55%);
+}
+
+.card-3 {
+  background: linear-gradient(127.16deg, #FEF9C3 3.85%, #FEF08A 95.73%);
+}
+
+.card-4 {
+  background: linear-gradient(109.56deg, #F3E8FF 8.75%, #D8B4FE 101.85%);
+}
+
+.card-5 {
+  background: linear-gradient(180deg, #DDD6FE 0%, #A78BFA 100%);
+}
+
+.explore-btn {
+  background: linear-gradient(93.54deg, #AF51C5 5.09%, #6E297E 91.93%);
+}
+
+.lunch {
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+
+  background: linear-gradient(91.55deg, #2F79CB 38.53%, #AF51C5 92.65%),
+    #F9FAFB;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 85;
+}
